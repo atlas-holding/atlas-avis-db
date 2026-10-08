@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
         - name: atlas-avis-db
-          image: harbor.dxp/dxp/atlas-avis-db:latest
+          image: harbor.harbor.svc.cluster.local/dxp/atlas-avis-db:dde9931
           imagePullPolicy: Always
           ports:
             - containerPort: 5432
